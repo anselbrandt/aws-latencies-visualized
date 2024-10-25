@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #444;
+}
+
+p {
+  color: #888;
+}
+
+#made {
+  position: fixed;
+  bottom: 15px;
+  width: 400px;
+  left: calc(50% - 200px);
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 2px 3px rgba(150, 150, 150, 0.05));
+}
+.drag {
+  cursor: grabbing;
+}
+
+#info {
+  font-size: 25px;
+  font-weight: bold;
+  color: #40d763;
+  color: black;
+  position: fixed;
+  top: 15px;
+  width: 500px;
+  left: calc(50% - 250px);
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  #info {
+    font-size: 15px;
+  }
+}
+
+a {
+  color: #1e9de7;
+}
+
+#go {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.green {
+  color: #27b648;
+  background-color: #27b648;
+}
+.yellow {
+  color: #f2b600;
+  background-color: #f2b600;
+}
+.red {
+  color: #ff455d;
+  background-color: #ff455d;
+}
+
+#legend {
+  font-size: 12px;
+  color: #40d763;
+  color: black;
+  position: fixed;
+  bottom: 70px;
+  left: 15px;
+  text-align: left;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
